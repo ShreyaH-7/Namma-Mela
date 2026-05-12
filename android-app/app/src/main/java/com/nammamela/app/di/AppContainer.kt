@@ -12,7 +12,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 class AppContainer(context: Context) {
 
     private val retrofit = Retrofit.Builder()
-        .baseUrl("http://10.56.231.74:5000/api/") // ⚠️ put your API base URL
+        .baseUrl("https://namma-mela-production.up.railway.app/api/")// ⚠️ put your API base URL
         .addConverterFactory(GsonConverterFactory.create())
         .build()
 
