@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.NammaMela" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/brand_red</item>
+        <item name="colorSecondary">@color/brand_gold</item>
+        <item name="android:colorBackground">@color/dark_bg</item>
+        <item name="colorSurface">@color/dark_surface</item>
+        <item name="colorOnBackground">@color/text_dark</item>
+        <item name="colorOnSurface">@color/text_dark</item>
+        <item name="colorOnSurfaceVariant">@color/text_dark</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/dark_bg</item>
+        <item name="textInputStyle">@style/Widget.NammaMela.TextInputLayout</item>
+    </style>
+
+    <style name="Widget.NammaMela.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">@color/dark_surface</item>
+        <item name="hintTextColor">@color/input_hint_dark</item>
+        <item name="boxStrokeColor">@color/brand_gold</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+        <item name="boxCornerRadiusTopStart">16dp</item>
+        <item name="boxCornerRadiusTopEnd">16dp</item>
+        <item name="boxCornerRadiusBottomStart">16dp</item>
+        <item name="boxCornerRadiusBottomEnd">16dp</item>
+    </style>
+
+    <style name="Widget.NammaMela.TextInputEditText" parent="Widget.Material3.TextInputEditText.OutlinedBox">
+        <item name="android:textColor">@color/text_dark</item>
+        <item name="android:textColorHint">@color/input_hint_dark</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+    </style>
+
+    <style name="Widget.NammaMela.PrimaryButton" parent="Widget.Material3.Button">
+        <item name="cornerRadius">16dp</item>
+        <item name="backgroundTint">@color/brand_red</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Widget.NammaMela.OutlineButton" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="cornerRadius">16dp</item>
+        <item name="strokeColor">@color/brand_gold</item>
+        <item name="android:textColor">@color/brand_gold</item>
+    </style>
+
+    <style name="Widget.NammaMela.ActionCard" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">18dp</item>
+        <item name="cardBackgroundColor">@color/dark_surface</item>
+    </style>
+
+    <style name="Widget.NammaMela.ActionCardText" parent="">
+        <item name="android:padding">20dp</item>
+        <item name="android:textColor">@color/text_dark</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Widget.NammaMela.SectionCard" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardBackgroundColor">@color/dark_surface</item>
+    </style>
+</resources>

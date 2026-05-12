@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_red">#B3261E</color>
+    <color name="brand_gold">#D88A1D</color>
+    <color name="cream_bg">#FFF8EE</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="text_light">#1F1B16</color>
+    <color name="input_hint_light">#7B6F66</color>
+    <color name="dark_bg">#171412</color>
+    <color name="dark_surface">#241F1B</color>
+    <color name="text_dark">#F6EFE7</color>
+    <color name="input_hint_dark">#C9BCB1</color>
+    <color name="seat_green">#2E7D32</color>
+    <color name="seat_orange">#F57C00</color>
+    <color name="seat_red">#C62828</color>
+</resources>

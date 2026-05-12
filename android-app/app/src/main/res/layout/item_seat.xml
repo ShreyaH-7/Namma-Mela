@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tvSeatNumber"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:layout_margin="4dp"
+    android:elevation="2dp"
+    android:gravity="center"
+    android:textColor="@android:color/white"
+    android:textSize="10sp"
+    android:textStyle="bold" />
