@@ -42,7 +42,7 @@ The Android app uses `http://10.0.2.2:5000/api/` as the default local API base U
 ## Database Design
 See [DATABASE_SCHEMA.md](C:/Users/SHREYA/Documents/Codex/2026-04-27/act-as-a-senior-android-backend/DATABASE_SCHEMA.md).
 
-##OutPuts
+## OutPuts
 <img width="601" height="677" alt="image" src="https://github.com/user-attachments/assets/9272d632-3f26-4b1c-bd1d-7a71414ff16a" />
 
 <img width="476" height="681" alt="image" src="https://github.com/user-attachments/assets/2dceab73-3430-4bcd-82b0-5cfa475b0abb" />
